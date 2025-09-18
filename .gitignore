@@ -1,0 +1,126 @@
+# Entorno virtual
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+.venv.bak/
+
+# Dependencias de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Archivos de instalación de pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Entornos
+.env
+.venv
+.env.production
+.env.test
+.env.local
+
+# Archivos de desarrollo
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos temporales
+temp/
+tmp/
+
+# Archivos específicos de FastAPI
+# (generalmente no necesitan ser versionados)
+
+# Archivos de sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Archivos de documentación
+docs/_build/
+
+# Archivos de despliegue
+.dockerignore
+Dockerfile
+docker-compose.yml
+# (comenta la línea anterior si versionas estos archivos)
+
+# Archivos de configuración personalizados
+config/local.py
+config/development.py
+
+# Migraciones (si usas SQLAlchemy u ORM)
+migrations/versions/*
+!migrations/versions/__init__.py
+alembic.ini
