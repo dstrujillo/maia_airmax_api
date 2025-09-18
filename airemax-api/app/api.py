@@ -36,6 +36,7 @@ async def get_air_quality(
 ) -> Any:
     """
     Obtiene datos de calidad del aire y meteorológicos para una ubicación específica.
+    Basado en los datos, genera predicción y recomendación para reducción del riesgo de enfermedades y accidentes respiratorios.
     
     Args:
         lat (float): Latitud de la ubicación
