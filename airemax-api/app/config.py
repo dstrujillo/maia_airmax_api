@@ -26,7 +26,7 @@ class Settings(BaseSettings):
         "https://localhost:8000",  # type: ignore
     ]
 
-    PROJECT_NAME: str = "Airemax API - MAIA"
+    PROJECT_NAME: str = "Airemax API - MAIA - By Team 18"
 
     AQICN_TOKEN: str = "26dd09743e36c54aa53c1701b6911e55071e9c58"
     AQICN_API_URL: str = "https://api.waqi.info/feed/geo:"
