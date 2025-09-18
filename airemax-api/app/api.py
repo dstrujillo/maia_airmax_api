@@ -3,11 +3,11 @@ from typing import Any
 import pprint
 
 #import numpy as np
-import pandas as pd
+#import pandas as pd
 from fastapi import APIRouter, HTTPException, Query
 from fastapi.encoders import jsonable_encoder
 from loguru import logger
-#from model import __version__ as model_version
+from model import __version__ as model_version
 #from model.predict import make_prediction
 
 from app import __version__, schemas
