@@ -1,4 +1,4 @@
-./model-pkg/model_abandono-0.0.1-py3-none-any.whl
+./model-pkg/model_aire-maxx-0.0.1-py3-none-any.whl
 anyio==4.10.0
 cachetools==6.2.0
 certifi==2025.8.3
@@ -16,7 +16,7 @@ httpx==0.28.1
 idna==3.10
 iniconfig==2.1.0
 loguru==0.7.3
-numpy==1.23.0
+numpy==1.26.0
 packaging==25.0
 platformdirs==4.4.0
 pluggy==1.6.0
